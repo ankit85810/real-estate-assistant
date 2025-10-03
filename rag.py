@@ -7,9 +7,16 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_groq import ChatGroq
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings
+import os
 
 
-load_dotenv()
+
+if "GROQ_API_KEY" in os.environ:
+    api_key = os.environ["GROQ_API_KEY"]
+else:
+    load_dotenv()
+    api_key = os.getenv("GROQ_API_KEY")
+
 CHUNK_SIZE = 1000
 EMBEDDING_MODEL = "Alibaba-NLP/gte-base-en-v1.5"
 VECTORSTORE_DIR = Path(__file__).parent / "resources/vectorstore"
