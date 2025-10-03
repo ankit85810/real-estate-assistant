@@ -1,6 +1,6 @@
 # 🏠 Real Estate Assistant (RAG-powered Tool)
 
-This project is a **Real Estate Assistant** that allows users to provide real estate-related links, scrape their content, store the information in a vector database, and then ask natural language questions about the scraped data.  
+This project is a **Real Estate Assistant** ([link](https://real-estate-assistant.streamlit.app/)) that allows users to provide real estate-related links, scrape their content, store the information in a vector database, and then ask natural language questions about the scraped data.  
 
 It uses **LangChain**, **Hugging Face embeddings**, **ChromaDB**, and **Groq’s LLMs** to perform Retrieval-Augmented Generation (RAG). The frontend is powered by **Streamlit**.
 
