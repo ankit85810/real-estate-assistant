@@ -4,6 +4,10 @@ This project is a **Real Estate Assistant** ([link](https://real-estate-assistan
 
 It uses **LangChain**, **Hugging Face embeddings**, **ChromaDB**, and **Groq’s LLMs** to perform Retrieval-Augmented Generation (RAG). The frontend is powered by **Streamlit**.
 
+
+<img width="1917" height="864" alt="image" src="https://github.com/user-attachments/assets/82f1865d-d7f7-4cab-aad4-8b739de212d3" />
+
+
 ---
 
 ## 🚀 Features
